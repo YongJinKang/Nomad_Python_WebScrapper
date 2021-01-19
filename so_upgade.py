@@ -1,17 +1,20 @@
 import requests
 from bs4 import BeautifulSoup
 
-
 #  페이지 가져오기
 def get_last_page(url):
-    result = requests.get(url)
-    soup = BeautifulSoup(result.text,"html.parser")
+    try:
+        result = requests.get(url)
+        soup = BeautifulSoup(result.text,"html.parser")
 
-    pages = soup.find("div", {"class":"s-pagination"}).find_all("a")
-    
-    last_page= pages[-2].get_text(strip=True)
-    
-    return int(last_page)
+        pages = soup.find("div", {"class":"s-pagination"}).find_all("a")
+        
+        last_page= pages[-2].get_text(strip=True)
+        
+        return int(last_page)
+    except:
+        print('Error: get_last_page_num')
+        return 0
 
 # 직무, 회사, 지역, 구인링크 가져오기
 
@@ -50,11 +53,11 @@ def extract_jobs(last_page, url):
         
     
 
-#word를 받아야겠지 ?
+
 def get_jobs(word):
     url = f"https://stackoverflow.com/jobs?q={word}&sort=i"
     last_page = get_last_page(url)
-    jobs = extract_jobs(last_page, url)
+    jobs = extract_jobs(last_page,url)
     return jobs
 
 # 마지막 페이지 출력

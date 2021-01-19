@@ -1,13 +1,14 @@
 from flask import Flask, render_template, request, redirect, send_file
-from scrapper import get_jobs
+from so_scrapper import get_jobs as so_get_jobs
+from ind_scrapper import get_jobs as ind_get_jobs
 from exporter import save_to_file
 
-app = Flask("SuperScraaper")
+app = Flask("SuperScrapper")
 
 
 db = {}
 
-@app.route("/")
+@app.route("/") # 누군가가 "/"에 접속하면, home이라는 함수를 만들거야
 def home():
   return render_template('potato.html')
   # return "<h1>Job Search</h1><form><input placeholder='What job do you want?' requred /><button>Search</button>"
@@ -22,7 +23,8 @@ def report ():
     if existingJobs:
       jobs = existingJobs
     else:
-      jobs = get_jobs(word)
+      jobs = ind_get_jobs(word) + so_get_jobs(word) 
+
       db[word] = jobs
   else:
     return redirect("/")
@@ -45,9 +47,5 @@ def export():
 
       except:
         return redirect("/")
-
-# @app.route("/<username>")
-# def potato(username):
-#   return f"Hello! {username} how are you doing"
 
 app.run(host="0.0.0.0")
