@@ -23,7 +23,7 @@ def report ():
     if existingJobs:
       jobs = existingJobs
     else:
-      jobs = ind_get_jobs(word) + so_get_jobs(word) 
+      jobs =  so_get_jobs(word) + ind_get_jobs(word)
 
       db[word] = jobs
   else:
