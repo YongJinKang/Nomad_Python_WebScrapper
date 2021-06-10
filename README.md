@@ -22,7 +22,7 @@
 #### [1] IT직군 채용 사이트 Indeed와 StackoverFlow의 채용공고 데이터를 수집하여 csv파일로 저장
 
 ##### 두 사이트의 데이터 수집하는 웹 스크래퍼 (csv파일 저장)
-- <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/main_upgrade.ipynb'>main_upgrade.py</a>
+- <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/main_upgrade.ipynb'>main_upgrade.ipynb</a>
 
 
 #### [2] 웹 서버 구동하여 검색어 입력받고 검색어에 해당하는 데이터 출력 (from Indeed and StackoverFlow)
