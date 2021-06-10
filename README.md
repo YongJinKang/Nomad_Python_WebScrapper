@@ -1,31 +1,31 @@
 ### Nomad_Python_WebScrapper
 
-À¯Æ©¹ö ³ë¸¶µå ÄÚ´õÀÇ ¿Â¶óÀÎ °­ÀÇ "ÆÄÀÌ½ãÀ» È°¿ëÇÑ À¥½ºÅ©·¡ÆÛ ¸¸µé±â"¸¦ µû¶ó ¸¸µç À¥ ½ºÅ©·¡ÆÛ.
+ìœ íŠœë²„ ë…¸ë§ˆë“œ ì½”ë”ì˜ ì˜¨ë¼ì¸ ê°•ì˜ "íŒŒì´ì¬ì„ í™œìš©í•œ ì›¹ìŠ¤í¬ëž˜í¼ ë§Œë“¤ê¸°"ë¥¼ ë”°ë¼ ë§Œë“  ì›¹ ìŠ¤í¬ëž˜í¼.
 
 
 #### <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/tree/master/previous_model'>1. First Web Scrapper</a>
 
-##### (1) Indeed »çÀÌÆ® Python °Ë»ö½Ã Ãâ·Â µ¥ÀÌÅÍ ¼öÁý ¸ðµâ
+##### (1) Indeed ì‚¬ì´íŠ¸ Python ê²€ìƒ‰ì‹œ ì¶œë ¥ ë°ì´í„° ìˆ˜ì§‘ ëª¨ë“ˆ
 - <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/previous_model/indeed.py'>indeed.py</a>
-##### (2) StackoverFlow »çÀÌÆ® Python °Ë»ö½Ã Ãâ·Â µ¥ÀÌÅÍ ¼öÁý ¸ðµâ
+##### (2) StackoverFlow ì‚¬ì´íŠ¸ Python ê²€ìƒ‰ì‹œ ì¶œë ¥ ë°ì´í„° ìˆ˜ì§‘ ëª¨ë“ˆ
 - <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/previous_model/so.py'>so.py</a>
-##### (3) µÎ°³ »çÀÌÆ® python °Ë»ö½Ã Ãâ·Â µ¥ÀÌÅÍ º´ÇÕ ÈÄ csv ÆÄÀÏ »ý¼º Jupyter Notebook 
-- <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/previous_model/so.py'>main.ipynb</a>
+##### (3) ë‘ê°œ ì‚¬ì´íŠ¸ python ê²€ìƒ‰ì‹œ ì¶œë ¥ ë°ì´í„° ë³‘í•© í›„ csv íŒŒì¼ ìƒì„± Jupyter Notebook 
+- <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/previous_model/main.ipynb'>main.ipynb</a>
 
 #### 2. Upgrade
 
-##### (1) Indeed»çÀÌÆ® µ¥ÀÌÅÍ Å©·Ñ¸µ ¸ðµâ (°Ë»ö °¡´É)
+##### (1) Indeedì‚¬ì´íŠ¸ ë°ì´í„° í¬ë¡¤ë§ ëª¨ë“ˆ (ê²€ìƒ‰ ê°€ëŠ¥)
 - <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/ind_scrapper.py'>ind_scrapper.py</a>
-##### (2) StackoverFlow»çÀÌÆ® µ¥ÀÌÅÍ Å©·Ñ¸µ ¸ðµâ (°Ë»ö °¡´É)
+##### (2) StackoverFlowì‚¬ì´íŠ¸ ë°ì´í„° í¬ë¡¤ë§ ëª¨ë“ˆ (ê²€ìƒ‰ ê°€ëŠ¥)
 - <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/so_scrapper.py'>so_scrapper.py</a>
 
-#### [1] ITÁ÷±º Ã¤¿ë »çÀÌÆ® Indeed¿Í StackoverFlowÀÇ Ã¤¿ë°ø°í µ¥ÀÌÅÍ¸¦ ¼öÁýÇÏ¿© csvÆÄÀÏ·Î ÀúÀå
+#### [1] ITì§êµ° ì±„ìš© ì‚¬ì´íŠ¸ Indeedì™€ StackoverFlowì˜ ì±„ìš©ê³µê³  ë°ì´í„°ë¥¼ ìˆ˜ì§‘í•˜ì—¬ csvíŒŒì¼ë¡œ ì €ìž¥
 
-##### µÎ »çÀÌÆ®ÀÇ µ¥ÀÌÅÍ ¼öÁýÇÏ´Â À¥ ½ºÅ©·¡ÆÛ (csvÆÄÀÏ ÀúÀå)
+##### ë‘ ì‚¬ì´íŠ¸ì˜ ë°ì´í„° ìˆ˜ì§‘í•˜ëŠ” ì›¹ ìŠ¤í¬ëž˜í¼ (csvíŒŒì¼ ì €ìž¥)
 - <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/main_upgrade.ipynb'>main_upgrade.py</a>
 
 
-#### [2] À¥ ¼­¹ö ±¸µ¿ÇÏ¿© °Ë»ö¾î ÀÔ·Â¹Þ°í °Ë»ö¾î¿¡ ÇØ´çÇÏ´Â µ¥ÀÌÅÍ Ãâ·Â (from Indeed and StackoverFlow)
+#### [2] ì›¹ ì„œë²„ êµ¬ë™í•˜ì—¬ ê²€ìƒ‰ì–´ ìž…ë ¥ë°›ê³  ê²€ìƒ‰ì–´ì— í•´ë‹¹í•˜ëŠ” ë°ì´í„° ì¶œë ¥ (from Indeed and StackoverFlow)
 
-##### ÇØ´ç pythonÆÄÀÏ runÇÏ¿© À¥¼­¹ö ±¸µ¿ÇÏ°í, http://127.0.0.1:5000 ¿¡ Á¢¼ÓÇÏ¿© °Ë
+##### í•´ë‹¹ pythoníŒŒì¼ runí•˜ì—¬ ì›¹ì„œë²„ êµ¬ë™í•˜ê³ , http://127.0.0.1:5000 ì— ì ‘ì†í•˜ì—¬ ê²€
 - <a href='https://github.com/YongJinKang/Nomad_Python_WebScrapper/blob/master/SuperScraaper.py'>Super Scrapper</a>
